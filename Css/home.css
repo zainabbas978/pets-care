@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+    .hello{
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);        
+      }
+      nav ul li{
+        justify-content: space-evenly;
+      }
+      .ga{
+        background-color: #ffb921;
+      }
+      .game{
+        padding: 20px;
+      }
+      .card-group{
+        gap: 20px;
+        padding: 10px;
+      }
+      .stars{
+        color: gold;
+      }
+      .card-group {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  margin: 0 15px;
+  width: 18rem; /* Fixed width for consistent card size */
+}
+.card-img-top {
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Ensure image covers the area without distortion */
+  width: 100%; /* Full width to cover the card */
+}
+.links ul{
+  list-style: none;
+}
+.links ul li a{
+  text-decoration: none;
+}
+.email input{
+ width: 400px;
+ border-radius: 5px;
+ padding: 10px;
+}
+.servi button a{
+text-decoration: none;
+color: white;
+}
+.ser a{
+text-decoration: none;
+color:black;
+}
+.con a{
+  text-decoration: none;
+  color: black;
+}
